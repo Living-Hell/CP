@@ -1,2 +1,7 @@
-x % (lcm(x,y)) = y % (lcm(x,y)) = 0
+# Always read the problem statement properly and go through the given test cases
+# and its explanation to find the necessary and hidden details/hints required to solve the problem.
+
+# x % (lcm(x,y)) = y % (lcm(x,y)) = 0
+
+# (x + y) % z = (x%z + y%z) %z
 
