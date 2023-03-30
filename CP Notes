@@ -5,3 +5,13 @@
 
 # (x + y) % z = (x%z + y%z) %z
 
+# Sequence of 2 letters (eg. a,b) aababb will have maxiumum palindrome substring size 3
+# Eg. aababbaababbaababbaababb...so on has maxmimum length of substring = 3  
+
+# If you have to find the combination of some sort for elements in a vector ( eg. difference between the two elements without repition)
+# Eg. if vector contains (x1,x2,x3,x4...ans so on),
+# To find: abs(x1-x2) + abs(x1-x3) + abs(x1-x4) + abs(x2-x3) + abs(x2-x4) + abs(x3-x4)
+# Sort the vector in decreasing order to get elements as (y1,y2,y3,y4...and so on), n numbers(say)
+# Then req. ans = n-1*y1 + (n-1-2)*y2 + (n-1-4)*y3 + (n-1-6)*y4... ans so on.
+
+# Whenever you see 2^(x) in constrain, it's probably the question of binary search, so think of the solution using binary search.
