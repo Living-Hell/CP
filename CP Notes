@@ -15,3 +15,9 @@
 # Then req. ans = n-1*y1 + (n-1-2)*y2 + (n-1-4)*y3 + (n-1-6)*y4... ans so on.
 
 # Whenever you see 2^(x) in constrain, it's probably the question of binary search, so think of the solution using binary search.
+
+# {3, 2, (3+2), (2+2), (3+2+2), (2+2+2)... so on} any sub-vector has the property that the sum of the sub-vector is not divisible by its size.
+
+# 2 is the only even prime number. For any other prime number to be sum of two prime numbers(other than 2), they will be odd so the resulting
+# sum will be even and thus it will be divisible by 2. So, for a prime number to be a sum of any other 2 prime number, one of them has to be 2
+# so that the resulting sum would be odd. Eg. 2,3,5 => 5 = 2 + 3 ; 2,11,13 => 13 = 11 + 2
